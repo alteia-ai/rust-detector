@@ -1,0 +1,36 @@
+# Editors files
+\#*
+\.#*
+*~
+TAGS
+/.vscode/
+
+# Python virtual environment
+/env/
+/venv/
+
+# Python temporary files
+__pycache__/
+*.pyc
+/dist/
+/*.egg-info/
+/.eggs/
+/build/
+/.coverage
+/htmlcov/
+.pytest_cache/
+pytype_output/
+.mypy*/
+
+# Gitlab runners builds
+/builds/
+
+# Localdeploy files
+/.env
+
+# generated files
+/README.html
+/CONTRIBUTING.html
+.DS_Store
+/sample_workdir/outputs.json
+/sample_workdir/report-sample.pdf

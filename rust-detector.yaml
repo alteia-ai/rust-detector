@@ -1,0 +1,36 @@
+---
+spec-version: v0.3
+name: [YOUR-COMPANY-SHORTNAME]/rust-detector
+display-name: Rust detector
+description: Detects rust on historical buildings
+docker-image: [YOUR-DOCKER-REGISTRY]/rust-detector:v1.1
+instance-type: small
+volume-size: 20
+groups: [Maintenance]
+inputs:
+  - name: building_mesh
+    display-name: Building 3D Model
+    description: 3D Model of the model (mesh dataset)
+    kind: dataset
+    schema:
+      type: mesh
+    required: true
+parameters:
+  - name: detection-mode
+    display-name: Rust detection mode
+    description: Level of detection (Fast, Standard or Deep)
+    schema:
+      type: string
+      enum:
+        - Fast
+        - Standard
+        - Deep
+    required: true
+deliverables:
+  - name: rust-report
+    display-name: Rust detection report
+    description: Pdf report containing insights about rust detected in the 3D model
+    kind: dataset
+    schema:
+      type: file
+    required: true

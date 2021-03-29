@@ -1,0 +1,22 @@
+# Editors files
+\#*
+\.#*
+*~
+TAGS
+
+# Git
+/.git/
+
+# Python virtual environment
+/env/
+/venv/
+
+# Python temporary files
+__pycache__/
+*.pyc
+/dist/
+/*.egg-info/
+/.eggs/
+/build/
+/.coverage/
+/htmlcov/

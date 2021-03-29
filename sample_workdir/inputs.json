@@ -1,0 +1,49 @@
+{
+    "inputs": {
+        "building_mesh": {
+            "ingestion": {
+                "status": "completed"
+            },
+            "categories": [],
+            "hidden": false,
+            "published": true,
+            "source": {
+                "name": "data-manager"
+            },
+            "_id": "587b3e78f0fd6f5aa47dc358",
+            "project": "587af89e0f56880007b2440c",
+            "format": "obj",
+            "components": [
+                {
+                    "status": "available",
+                    "name": "mesh",
+                    "checksum": null,
+                    "filename": "EiffelTower.obj",
+                    "size": 35715875,
+                    "path": "./sample_workdir/EiffelTower.obj"
+                }
+            ],
+            "name": "EiffelTower",
+            "type": "mesh",
+            "offset": [
+                0,
+                0,
+                0
+            ],
+            "mission": "587b3e780f56880007b2447e",
+            "company": "585a74ed4a75c20007a3a32a",
+            "creation_user": "587af51284c4e40006f0cb36",
+            "modification_user": "587af51284c4e40006f0cb36",
+            "creation_date": "2021-03-24T13:28:24.337Z",
+            "modification_date": "2021-03-24T13:29:10.664Z",
+            "publication_date": "2021-03-24T13:28:24.337Z",
+            "publication_user": "587af51284c4e40006f0cb36"
+        }
+    },
+    "parameters": {
+        "detection-mode": "Fast",
+        "project": "587af89e0f56880007b2440c",
+        "mission": "587b3e780f56880007b2447e"
+    },
+    "version": "0.1"
+}
