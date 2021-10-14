@@ -1,6 +1,7 @@
 ---
-spec-version: v0.3
+spec-version: v1.0
 name: [YOUR-COMPANY-SHORTNAME]/rust-detector
+version: 1.0.0
 display-name: Rust detector
 description: Detects rust on historical buildings
 docker-image: [YOUR-DOCKER-REGISTRY]/rust-detector:v1.0
