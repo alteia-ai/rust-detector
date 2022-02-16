@@ -5,4 +5,4 @@ Rust Detector is a piece of code **to help you creating and deploying your custo
 
 ## 📕 Documentation
 
-- [Tutorial on the knowledge base](https://alteia-knowledge-base.refined.site/space/AKB/231637141/Custom%20Analytics%20(CLI%20feature))
+- [Tutorial on the knowledge base](https://help.alteia.com/en_US/development-and-integration/custom-analytics)
